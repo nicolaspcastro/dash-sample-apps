@@ -105,7 +105,7 @@ app.layout = html.Div(
                         html.Div(
                             [
                                 html.H3(
-                                    "New York Oil and Gas",
+                                    "Vaca Muerta Oil and Gas",
                                     style={"margin-bottom": "0px"},
                                 ),
                                 html.H5(
