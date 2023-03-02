@@ -105,11 +105,11 @@ app.layout = html.Div(
                         html.Div(
                             [
                                 html.H3(
-                                    "Vaca Muerta Oil and Gas",
+                                    "Beneficios de decretos 277/22 & 484/22",
                                     style={"margin-bottom": "0px"},
                                 ),
                                 html.H5(
-                                    "Production Overview", style={"margin-top": "0px"}
+                                    "calculos de divisas y produccion", style={"margin-top": "0px"}
                                 ),
                             ]
                         )
@@ -120,7 +120,7 @@ app.layout = html.Div(
                 html.Div(
                     [
                         html.A(
-                            html.Button("Learn More", id="learn-more-button"),
+                            html.Button("Decretos", id="learn-more-button"), #TODO: linkear los articulos en el boletin oficial
                             href="https://plot.ly/dash/pricing/",
                         )
                     ],
